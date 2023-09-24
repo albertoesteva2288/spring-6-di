@@ -1,2 +1,10 @@
-package guru.springframework.spring6di.service.impl;public class GreetingServiceImpl {
+package guru.springframework.spring6di.service.impl;
+
+import guru.springframework.spring6di.service.GreetingService;
+
+public class GreetingServiceImpl implements GreetingService {
+    @Override
+    public String sayGreeting() {
+        return "Hello Everyone from base service!!!";
+    }
 }
