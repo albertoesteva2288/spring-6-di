@@ -1,7 +1,5 @@
 package guru.springframework.spring6di.controller;
 
-import guru.springframework.spring6di.service.GreetingService;
-import guru.springframework.spring6di.service.impl.GreetingServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
