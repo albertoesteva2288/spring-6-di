@@ -4,7 +4,7 @@ import guru.springframework.spring6di.service.GreetingService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Profile(value = "EN")
+@Profile(value = {"EN", "default"})
 @Service(value = "i18NService")
 public class EnglishGreetingService implements GreetingService {
     @Override
